@@ -13,10 +13,6 @@
 		73AC95331EE932D7003EA750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AC95311EE932D7003EA750 /* Main.storyboard */; };
 		73AC95351EE932D7003EA750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AC95341EE932D7003EA750 /* Assets.xcassets */; };
 		73AC95381EE932D7003EA750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AC95361EE932D7003EA750 /* LaunchScreen.storyboard */; };
-		73AC954B1EE9479B003EA750 /* JJRefreshTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AC95481EE9479B003EA750 /* JJRefreshTabView.m */; };
-		73AC954C1EE9479B003EA750 /* NoDataBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AC954A1EE9479B003EA750 /* NoDataBackGroundView.m */; };
-		73AC954F1EE947CB003EA750 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 73AC954D1EE947CB003EA750 /* LICENSE */; };
-		73AC95501EE947CB003EA750 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 73AC954E1EE947CB003EA750 /* README.md */; };
 		92F215B92997C53C7A08AFC9 /* libPods-CustomRefreshTabView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCFF64C76728A13A766ABC9 /* libPods-CustomRefreshTabView.a */; };
 /* End PBXBuildFile section */
 
@@ -32,12 +28,6 @@
 		73AC95341EE932D7003EA750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73AC95371EE932D7003EA750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73AC95391EE932D7003EA750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73AC95471EE9479B003EA750 /* JJRefreshTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRefreshTabView.h; sourceTree = "<group>"; };
-		73AC95481EE9479B003EA750 /* JJRefreshTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRefreshTabView.m; sourceTree = "<group>"; };
-		73AC95491EE9479B003EA750 /* NoDataBackGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoDataBackGroundView.h; sourceTree = "<group>"; };
-		73AC954A1EE9479B003EA750 /* NoDataBackGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDataBackGroundView.m; sourceTree = "<group>"; };
-		73AC954D1EE947CB003EA750 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		73AC954E1EE947CB003EA750 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9CCFF64C76728A13A766ABC9 /* libPods-CustomRefreshTabView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomRefreshTabView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF09D24B88BF91800BC099FA /* Pods-CustomRefreshTabView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRefreshTabView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomRefreshTabView/Pods-CustomRefreshTabView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,9 +55,6 @@
 		73AC951C1EE932D7003EA750 = {
 			isa = PBXGroup;
 			children = (
-				73AC954D1EE947CB003EA750 /* LICENSE */,
-				73AC954E1EE947CB003EA750 /* README.md */,
-				73AC95461EE9479B003EA750 /* RefreshTabView */,
 				73AC95271EE932D7003EA750 /* CustomRefreshTabView */,
 				73AC95261EE932D7003EA750 /* Products */,
 				B20B521531F85AC2EEB062F4 /* Pods */,
@@ -105,17 +92,6 @@
 				73AC95291EE932D7003EA750 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		73AC95461EE9479B003EA750 /* RefreshTabView */ = {
-			isa = PBXGroup;
-			children = (
-				73AC95471EE9479B003EA750 /* JJRefreshTabView.h */,
-				73AC95481EE9479B003EA750 /* JJRefreshTabView.m */,
-				73AC95491EE9479B003EA750 /* NoDataBackGroundView.h */,
-				73AC954A1EE9479B003EA750 /* NoDataBackGroundView.m */,
-			);
-			path = RefreshTabView;
 			sourceTree = "<group>";
 		};
 		B20B521531F85AC2EEB062F4 /* Pods */ = {
@@ -190,7 +166,6 @@
 			files = (
 				73AC95381EE932D7003EA750 /* LaunchScreen.storyboard in Resources */,
 				73AC95351EE932D7003EA750 /* Assets.xcassets in Resources */,
-				73AC954F1EE947CB003EA750 /* LICENSE in Resources */,
 				73AC95331EE932D7003EA750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,11 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73AC95501EE947CB003EA750 /* README.md in Sources */,
 				73AC95301EE932D7003EA750 /* ViewController.m in Sources */,
 				73AC952D1EE932D7003EA750 /* AppDelegate.m in Sources */,
-				73AC954B1EE9479B003EA750 /* JJRefreshTabView.m in Sources */,
-				73AC954C1EE9479B003EA750 /* NoDataBackGroundView.m in Sources */,
 				73AC952A1EE932D7003EA750 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
