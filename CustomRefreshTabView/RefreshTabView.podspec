@@ -9,6 +9,7 @@ s.source       = { :git => "https://github.com/jjcmwangxinyu/CustomRefreshTabVie
 s.source_files = "RefreshTabView/**/*"
 s.requires_arc = true # 是否启用ARC
 s.platform     = :ios, "8.0" #平台及支持的最低版本
+s.frameworks = "UIKit"
 s.dependency 'MJRefresh'
 # User
 s.author             = { "jjcmwangxinyu" => "951494812@qq.com" } # 作者信息
